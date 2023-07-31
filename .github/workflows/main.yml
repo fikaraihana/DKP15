@@ -18,8 +18,4 @@ jobs:
           php-version: "8.2"
           tools: phpcs
       - name: Run phpcs
-<<<<<<< HEAD
         run: phpcs --report-diff .
-=======
-        run: phpcs --report-full --standard=PSR2 .
->>>>>>> 2692840c48a3b26fd92f7ad026aa1d2822a8820b
